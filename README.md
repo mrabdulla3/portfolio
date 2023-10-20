@@ -1,1 +1,1 @@
-https://mrabdulla3.github.io/portfolio/
+https://mrabdulla3.github.io/portfolio/portfolio
