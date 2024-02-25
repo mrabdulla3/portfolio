@@ -44,7 +44,26 @@
 .inmain .pic {
   height: 80vh;
   width: 30vw;
+  position: absolute;
+  bottom: 0;
+  right: 100px;
   /* background-color: #0077a2; */
+}
+.inmain .pic img{
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  transition: bottom 1s left 1s;
+}
+.inmain .pic:hover .shape{
+  bottom: 40px;
+
+}
+.inmain .pic:hover .boy{
+  left: 45%;
+
 }
 
 .hello {
