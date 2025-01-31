@@ -1,28 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Domine&family=Roboto+Slab:wght@200;300;400&family=Ysabeau+SC:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Domine&family=Roboto+Slab:wght@200;300;400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Domine&family=Roboto+Slab:wght@200;300;400&family=Ysabeau+SC:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Domine&family=Roboto+Slab:wght@200;300;400&display=swap");
 
 .sidemain {
   display: flex;
 }
 
 .sidebar {
-  position: fixed; 
-  top: 0; 
+  position: fixed;
+  top: 0;
   left: 0;
-  width: 10vw; 
-  height: 100vh; 
-  z-index: 10; 
+  width: 10vw;
+  height: 100vh;
+  z-index: 10;
 }
 
-
 section {
-  margin-left: 8vw; 
+  margin-left: 8vw;
   width: 90vw;
   height: 100vh;
 }
 
 .inmain {
-  /* background-color: blue; */
   width: 80vw;
   height: 80vh;
   margin: 50px auto;
@@ -35,8 +33,6 @@ section {
   flex-direction: column;
   justify-self: center;
   width: 50vw;
-  /* background-color: rgb(224, 181, 125);  */
-
 }
 
 .inmain .pic {
@@ -45,9 +41,8 @@ section {
   position: absolute;
   bottom: 0;
   right: 100px;
-  /* background-color: #0077a2; */
 }
-.inmain .pic img{
+.inmain .pic img {
   height: 100%;
   position: absolute;
   left: 50%;
@@ -55,13 +50,11 @@ section {
   transform: translateX(-50%);
   transition: bottom 1s left 1s;
 }
-.inmain .pic:hover .shape{
+.inmain .pic:hover .shape {
   bottom: 40px;
-
 }
-.inmain .pic:hover .boy{
+.inmain .pic:hover .boy {
   left: 45%;
-
 }
 
 .hello {
@@ -70,10 +63,10 @@ section {
   margin-left: 50px;
   display: inline-block;
   color: #0563bb;
-  font-family: 'Bebas Neue', sans-serif;
-  font-family: 'Domine', serif;
-  font-family: 'Roboto Slab', serif;
-  font-family: 'Ysabeau SC', sans-serif;
+  font-family: "Bebas Neue", sans-serif;
+  font-family: "Domine", serif;
+  font-family: "Roboto Slab", serif;
+  font-family: "Ysabeau SC", sans-serif;
 }
 
 div p {
@@ -94,7 +87,6 @@ div p {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
   color: blue;
   cursor: pointer;
-
 }
 
 .tooltip {
@@ -125,13 +117,11 @@ div p {
   opacity: 0;
   transition: 0.3s;
   bottom: 15px;
-
 }
 
 .tooltip:hover .tooltip-text {
   visibility: visible;
   opacity: 1;
-  /* background-color: rgb(94, 94, 192); */
 }
 
 .icon svg:hover {
@@ -139,9 +129,8 @@ div p {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
   color: blue;
   cursor: pointer;
-
 }
-.all-projects{
+.all-projects {
   width: 90vw;
   height: 100%;
 }
@@ -178,9 +167,7 @@ div p {
   display: none;
 }
 
-
 .address {
-  /* background-color: #ba5050;*/
   width: 36vw;
 }
 
@@ -278,11 +265,10 @@ div p {
 /* Responsive Design */
 @media (max-width: 768px) {
   .contact-content {
-      flex-direction: column;
-      align-items: center;
+    flex-direction: column;
+    align-items: center;
   }
 }
-
 
 .inmain .icon2 {
   margin: 30px 20px 0px 0px;
@@ -318,11 +304,9 @@ div p {
 
 .imageabout img {
   height: 50vh;
-  
 }
 
 .information {
-  /* background-color: aquamarine;*/
   width: 50vw;
 }
 
@@ -336,7 +320,7 @@ div p {
   font-weight: bold;
 }
 
- .image {
+.image {
   /*  background-color: #ba5050;*/
   height: 80vh;
   width: 30vw;
@@ -352,7 +336,6 @@ div p {
 .insmain .image {
   width: 20vw;
   height: 100%;
-
 }
 
 .insmain .information {
@@ -360,7 +343,7 @@ div p {
   font-size: 18px;
   /*background-color: aqua;*/
 }
-.about-section{
+.about-section {
   height: 100%;
 }
 
@@ -370,19 +353,19 @@ div p {
   /*background-color: aqua;*/
 }
 
- .page-title {
+.page-title {
   text-align: center;
-  font-family: 'Bebas Neue', sans-serif;
-  font-family: 'Domine', serif;
-  font-family: 'Roboto Slab', serif;
+  font-family: "Bebas Neue", sans-serif;
+  font-family: "Domine", serif;
+  font-family: "Roboto Slab", serif;
 }
 
 ul li {
   margin-bottom: 50px;
   font-size: 19px;
-  font-family: 'Bebas Neue', sans-serif;
-  font-family: 'Domine', serif;
-  font-family: 'Roboto Slab', serif;
+  font-family: "Bebas Neue", sans-serif;
+  font-family: "Domine", serif;
+  font-family: "Roboto Slab", serif;
 }
 
 .insmain .image img {
@@ -435,21 +418,20 @@ ul li {
 }
 
 .skill-item:hover h5 {
-  color: #0078d7; /* Accent color */
+  color: #0078d7; 
 }
-
 
 .about-section .skills .skillhead {
   text-align: center;
-  font-family: 'Bebas Neue', sans-serif;
-  font-family: 'Domine', serif;
-  font-family: 'Roboto Slab', serif;
+  font-family: "Bebas Neue", sans-serif;
+  font-family: "Domine", serif;
+  font-family: "Roboto Slab", serif;
 }
 
 .para {
-  font-family: 'Bebas Neue', sans-serif;
-  font-family: 'Domine', serif;
-  font-family: 'Roboto Slab', serif;
+  font-family: "Bebas Neue", sans-serif;
+  font-family: "Domine", serif;
+  font-family: "Roboto Slab", serif;
   font-size: 20px;
 }
 
@@ -469,14 +451,13 @@ ul li {
 .cv:hover {
   transform: translateY(2px);
   box-shadow: 0 2px 4px rgba(63, 62, 62, 0.3);
-
 }
 
-.check-project-button{
+.check-project-button {
   text-decoration: none;
 }
 
-@media (max-width:1250px) {
+@media (max-width: 1250px) {
   * {
     margin: 0;
     padding: 0;
@@ -489,7 +470,7 @@ ul li {
   .mains .image {
     height: 45vh;
   }
-  .insmain .image img{
+  .insmain .image img {
     margin-top: 10px;
   }
 
@@ -497,19 +478,19 @@ ul li {
     display: block;
     height: 100%;
   }
-  .sidebar{
+  .sidebar {
     padding-left: 12px;
     width: 10vw;
   }
-  .about-section{
+  .about-section {
     padding-left: 30px;
   }
-  section{
+  section {
     padding-left: 30px;
     width: 90vw;
   }
 
- .para{
+  .para {
     font-size: 13px;
   }
 
@@ -520,7 +501,6 @@ ul li {
   .sidebarGo {
     transform: translate(-443px, 0px);
     position: absolute;
-
   }
 
   .ham {
@@ -534,14 +514,15 @@ ul li {
   .insmain .information2 {
     float: left;
     margin: 0;
-   
   }
-
 }
 /* General Styles */
 .projects-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* 4 per row on large screens */
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(250px, 1fr)
+  ); /* 4 per row on large screens */
   gap: 20px;
   padding: 20px;
   justify-content: center;
@@ -626,19 +607,19 @@ ul li {
 /* Responsive Adjustments */
 @media (max-width: 1024px) {
   .projects-container {
-      grid-template-columns: repeat(3, 1fr); /* 3 per row */
+    grid-template-columns: repeat(3, 1fr); /* 3 per row */
   }
 }
 
 @media (max-width: 768px) {
   .projects-container {
-      grid-template-columns: repeat(2, 1fr); /* 2 per row */
+    grid-template-columns: repeat(2, 1fr); /* 2 per row */
   }
 }
 
 @media (max-width: 480px) {
   .projects-container {
-      grid-template-columns: repeat(1, 1fr); /* 1 per row */
+    grid-template-columns: repeat(1, 1fr); /* 1 per row */
   }
 }
 /* Footer Styling */
@@ -691,8 +672,12 @@ footer .icon {
 }
 
 /* Custom Styling for Different Icons */
-.icon.github:hover { background: #333; }
-.icon.github i:hover { color: white; }
+.icon.github:hover {
+  background: #333;
+}
+.icon.github i:hover {
+  color: white;
+}
 
 .icon.leetcode img,
 .icon.hackerrank img,
@@ -709,4 +694,3 @@ footer .icon {
 .icon.gfg:hover img {
   transform: scale(1.2);
 }
-
